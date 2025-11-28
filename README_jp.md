@@ -1,22 +1,18 @@
-# Soft-FPGA-TD4
+# Soft-FPGA-Othello
 
 ![soft-fpga-logo](./images/soft_fpga_logo-70x50.png)
 
-- 2025/10/30 ブレッドボード図を追加しました。
-  - [Fritzing](https://fritzing.org/)で作成しました。
+- 2025/11/28 <span style="color: red; font-weight: bold;">まだ作成中です。</span>
+- 2025/11/28 [Soft-FPGA-TD4](https://github.com/open-tommie/Soft-FPGA-TD4)からforkしました。
+
+- ブレッドボード図（予定）
 
 [![Sketch](./images/soft-FPGA-TD4-Sketch-198x200.png)](./images/soft-FPGA-TD4-Sketch-1815x1832.png)
 
-- 2025/10/28 `0.1alpha` リリースしました。
-  - [soft-FPGA-TD4-0.1alpha](https://github.com/open-tommie/Soft-FPGA-TD4/releases)
-- 2025/10/25 __まだ編集中ですが__
-  - ビルド手順を書きました。
-  - git cloneしてビルドできるはず。
-
-- Verilogで実装したシンプルな4bit CPU TD4をverilatorでC++ソースへ変換し、`Raspberry Pi Pico2` 上で動作するようにしました。
+- Verilogで実装したオセロゲームをverilatorでC++ソースへ変換し、`Raspberry Pi Pico2` 上で動作させる予定です。
 - __FPGAは不要__ です。pico2のみで動きます。
 - ハードウェアFPGAなしでverilogソースが動く！だから __`soft-FPGA`__ です。
-- `soft-FPGA`は`Software Defined FPGA`の略です。
+- `soft-FPGA`は`Software Defined FPGA`の略です。`Software Defined Radio`からインスパイアされて私が作った造語です。
 
 ![pico2-01](./images/pico2-01.jpg)
 
@@ -24,12 +20,8 @@
 
 ## 開発環境
 
-- [開発環境インストールの詳細手順](./etc/90-env-install.md)
-  - Windows11
-    - VSCode
-      - `pico SDK` VSCode拡張
-    - MSYS2
-      - verilator 5
+- 2025/11/28 開発環境は変更する予定です。
+- Dockerでビルド、実行できるようにしたい。
 
 ---
 
