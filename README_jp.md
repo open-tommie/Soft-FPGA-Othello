@@ -2,7 +2,7 @@
 
 ![soft-fpga-logo](./images/soft_fpga_logo-70x50.png)
 
-- 2025/11/28 $$ \color{red}{\textbf{まだ作成中です。}} $$ 動いてません。
+- 2025/11/28 __まだ作成中です。__ 動いてません。
 - 2025/11/28 [Soft-FPGA-TD4](https://github.com/open-tommie/Soft-FPGA-TD4)からforkしました。
 
 - ブレッドボード図（予定）
