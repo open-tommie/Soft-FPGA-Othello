@@ -1,6 +1,7 @@
-(Oct-25 Now, Editing...)
+# Soft-FPGA-Othello
 
-# Soft-FPGA-TD4
+- forked.
+- 2025-Nov-28 Now, Editing...
 
 - [日本語はこちら(Japanese version)](./README_jp.md)
 
